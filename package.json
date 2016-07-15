@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/kjgum/hangmanNode"
   },
   "author": "kjgum",
   "license": "ISC",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/kjgum/hangmanNode"
   },
-  "homepage": "",
+  "homepage": "https://kristingumbert.com",
   "dependencies": {
     "prompt": "^0.2.14"
   }

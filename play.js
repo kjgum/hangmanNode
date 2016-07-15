@@ -2,7 +2,7 @@ var Word = require("./word.js");
 var prompt = require("prompt");
 
 prompt.start();
-
+// declaring wordBank and randomize it
 var game = {
   wordBank: ["red", "orange", "yellow", "green", "blue", "indigo", "purple"],
   guessesRemaining: 10,
@@ -13,6 +13,8 @@ var game = {
     this.currentWrd.getLets();
     this.keepPromptingUser();
   },
+
+  // prompt guesses/wins
   keepPromptingUser: function() {
     var self = this;
     prompt.get(["guessLetter"], function(err, result) {
@@ -42,4 +44,5 @@ var game = {
   }
 };
 
+//call game to start
 game.startGame();

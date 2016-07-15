@@ -1,5 +1,6 @@
 var Letter = require("./letter.js");
 
+// push letters into spaces
 function Word(wrd) {
   this.word = wrd;
   this.lets = [];
