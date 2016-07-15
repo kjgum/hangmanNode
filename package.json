@@ -1,0 +1,22 @@
+{
+  "name": "hangmanNode",
+  "version": "1.0.0",
+  "description": "Hangman game using Node.js command line",
+  "main": "main.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "kjgum",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "prompt": "^0.2.14"
+  }
+}
